@@ -1,0 +1,27 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Way</title>
+    </head>
+    <body>
+        <h3>{{name}} is here</h3>
+    </body>
+</html> -->
+<!-- Live server extension by retwick -->
+ <!-- Satus Codes -->
+  <!-- file get data show
+     post data print append not overwrite
+     delete operation -->
+
+     <!-- {% extends "layout.html" %}
+     {% block body %}
+     <h3>{{name}} is here</h3>
+     <h3>Hello</h3>
+      <form action="/" method="POST">
+        label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <button type="submit">submit</button>
+     </form> 
+     {% endblock %} -->

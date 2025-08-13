@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+{% if request.method == "POST" %}
+    <h2>Form submitted</h2>
+    <p>Thank You for Submitting</p><br>
+    <p>Name:{{name}}</p>
+    <p>Password:{{password}}</p>
+{% endif %}
+{% endblock %}
